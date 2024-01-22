@@ -1,0 +1,44 @@
+blogNotes/
+│
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+├── run.py
+│
+├── app/
+│   ├── __init__.py
+│   │
+│   ├── config/
+│   │   ├── __init__.py
+│   │
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── notes_view.py
+│   │   └── users_view.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── note_model.py
+│   │   └── user_model.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── note_service.py
+│   │   └── user_service.py
+│   │
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── notes_route.py
+│   │   └── user_route.py
+│   │
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   ├── test_notes.py
+│   │   └── test_users.py
+│   │
+│   └── middleware/ 
+│       ├── __init__.py
+│       ├── auth.py
+│       └── validators.py
+│
+└── README.md
